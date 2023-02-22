@@ -4,7 +4,8 @@ const title = 'Harry Potter'
 console.log("Počet znaků: " + title.length)
 console.log("Velký název: " + title.toUpperCase())
 console.log("Prvních 5 písmen: " + title.slice(0, 5))
-console.log("Posledních 5 písmen: " + title.slice(title.length - 5, title.length))
+//console.log("Posledních 5 písmen: " + title.slice(title.length - 5, title.length))
+console.log("Posledních 5 písmen: " + title.slice(-5))
 
 // ukol 2
 const email = prompt("Uveď svůj email")
