@@ -1,4 +1,5 @@
 // tady je místo pro náš program - https://kodim.cz/kurzy/javascript-vyuka/js-1/retezce-podminky/cv-retezce
+
 // ukol 1
 const title = 'Harry Potter'
 console.log("Počet znaků: " + title.length)
